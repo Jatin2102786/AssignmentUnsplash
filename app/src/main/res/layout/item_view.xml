@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="230dp"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+app:cardCornerRadius="30dp"
+android:background="@color/white"
+android:layout_margin="10dp">
+<ImageView
+    android:id="@+id/item_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    />
+
+</com.google.android.material.card.MaterialCardView>
