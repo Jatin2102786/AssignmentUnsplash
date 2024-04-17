@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity(),ImageAdapter.ImageClickListener {
     private fun fetchImages() {
         isLoading = true
         GlobalScope.launch(Dispatchers.IO) {
-            val url = URL("https://api.unsplash.com/photos/random?count=$perPage&page=$currentPage&client_id=XDZS970GKixWGCNFhxfY2QchFijrKLFTdO8a50YChBo")
+            val url = URL("https://api.unsplash.com/photos/random?count=$perPage&page=$currentPage&client_id=Unsplash_Api_Access_key")
             val connection = url.openConnection() as HttpURLConnection
             connection.requestMethod = "GET"
             connection.connect()
